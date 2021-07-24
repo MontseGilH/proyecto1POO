@@ -31,8 +31,8 @@ public class MyWorld extends World
     
     private void prepare()
     {
-        //Palabras baby = new Palabras();
-        //addObject(baby,139,267);
+        Animal foca = new Animal();
+        addObject(foca,475,175);
         
         addObject(counterLabel, 550,50);
         addObject(Pregunta, 200,100);
@@ -45,6 +45,6 @@ public class MyWorld extends World
     
     public void act()
     {
-        counterLabel.setText("Puntos: "+Palabras.counter);
+        counterLabel.setText("Puntos: "+Animal.counter);
     }
 }

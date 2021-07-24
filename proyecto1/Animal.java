@@ -6,7 +6,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Palabras extends Actor
+public class Animal extends Actor
 {
     public static int counter = 0;
     
@@ -18,6 +18,7 @@ public class Palabras extends Actor
     {
         if(Greenfoot.isKeyDown("space"))
         counter = counter + 1;
+        
         
     }
 }
