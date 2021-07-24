@@ -23,7 +23,7 @@ public class MyWorld extends World
     public MyWorld()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(600, 400, 1); 
+        super(960, 540, 1); 
         
         prepare();
         
@@ -32,14 +32,14 @@ public class MyWorld extends World
     private void prepare()
     {
         Animal foca = new Animal();
-        addObject(foca,475,175);
+        addObject(foca,795,195);
         
-        addObject(counterLabel, 550,50);
-        addObject(Pregunta, 200,100);
-        addObject(Respuesta1,100, 175);
-        addObject(Respuesta2,100,275);
-        addObject(Respuesta3,300,175);
-        addObject(Respuesta4,300,275);
+        addObject(counterLabel, 200,50);
+        addObject(Pregunta, 200,130);
+        addObject(Respuesta1,100, 275);
+        addObject(Respuesta2,100,395);
+        addObject(Respuesta3,375,275);
+        addObject(Respuesta4,375,395);
         
     }
     
