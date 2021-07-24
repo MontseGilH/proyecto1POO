@@ -16,9 +16,17 @@ public class Animal extends Actor
      */
     public void act()
     {
-        if(Greenfoot.isKeyDown("space"))
-        counter = counter + 1;
-        
-        
+        if(Greenfoot.isKeyDown("space")){
+            counter = counter + 1;
+            setImage("seal2.png");
+            wait(8);
+            setImage("seal.png");
+            wait(8);
+        }
+    }
+    
+    public void wait(int time)
+    {
+        Greenfoot.delay(time);
     }
 }
