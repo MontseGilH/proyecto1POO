@@ -44,15 +44,15 @@ public class Preguntas
         
     };
     private static final String[][] culturaGeneral = {
-        {"¿Cual es la?","rB","r2","r3","r4"},
-        {"¿Cual es la?","rB","r2","r3","r4"},
-        {"¿Cual es la?","rB","r2","r3","r4"},
-        {"¿Cual es la?","rB","r2","r3","r4"},
-        {"¿Cual es la?","rB","r2","r3","r4"},
-        {"¿Cual es la?","rB","r2","r3","r4"},
-        {"¿Cual es la?","rB","r2","r3","r4"},
-        {"¿Cual es la?","rB","r2","r3","r4"},
-        {"¿Cual es la?","rB","r2","r3","r4"},
+        {"¿Cuál es el lugar más frío de la tierra?","Homero","Shakespeare","John Green","Newton"},
+        {"¿Quién escribió La Odisea?","Amazonas","Nilo","Motagua","Rojo"},
+        {"¿Cuál es el río más lrgo del mundo??","Isabel II","Isabel","Maria","Sophia"},
+        {"¿Cómo se llama la Reina del Reino Unido?","Grecia","Roma","Alemania","España"},
+        {"¿Dónde originaron los juegos olímpicos?","Mamífero","Anfibio","Reptil","Pez"},
+        {"¿Qué tipo de animal es la ballena?","206","208","236","302"},
+        {"¿Qué cantidad de huesos en el cuerpo humano?","1945","1940","1955","1943"},
+        {"¿Cuándo acabó la II Guerra Mundial?","206","208","236","302"},
+        {"¿Quién es el autor de el Quijote?","1945","1940","1955","1943"},
         
     };
     //conseguir el largo de cada grupo de preguntas para saber cual es el máximo de preguntas que se pueden hacer

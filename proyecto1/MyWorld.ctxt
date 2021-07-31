@@ -1,11 +1,17 @@
 #BlueJ class context
 comment0.target=MyWorld
 comment0.text=\n\ Write\ a\ description\ of\ class\ MyWorld\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
-comment1.params=
-comment1.target=MyWorld()
-comment1.text=\n\ Constructor\ for\ objects\ of\ class\ MyWorld.\n\ \n
-comment2.params=
-comment2.target=void\ prepare()
+comment1.params=add
+comment1.target=java.lang.String\ getQuestion(int)
+comment2.params=add
+comment2.target=java.lang.String[]\ getAns(int)
 comment3.params=
-comment3.target=void\ act()
-numComments=4
+comment3.target=void\ chngQstn()
+comment4.params=
+comment4.target=MyWorld()
+comment4.text=\n\ Constructor\ for\ objects\ of\ class\ MyWorld.\n\ \n
+comment5.params=
+comment5.target=void\ prepare()
+comment6.params=
+comment6.target=void\ act()
+numComments=7

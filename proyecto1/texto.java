@@ -14,6 +14,7 @@ public class texto extends Actor
         //img.setColor(Color.GREEN);
         img.drawString(text,2,20);
         setImage(img);
+        Greenfoot.playSound("mus.mp3");
     
     }
     
